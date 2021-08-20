@@ -38,7 +38,7 @@ section{
 }
 .max-width{
     width: 100vw;
-    padding: 0 80px;
+    padding: 0 30px;
     margin: auto;
 }
 .about, .WebApplications, .skills, .contact, footer{
@@ -449,13 +449,10 @@ section .title::after{
     color:#fff;
     background: #111;
 }
-.WebApplications .carousel,
-.WebApplications .carousel2{
+.WebApplications .carousel{
     display:flex;
     justify-content: center;
 }
-.WebApplications .carousel2 .card,
-.WebApplications .carousel2 .lastCard,
 .WebApplications .carousel .card,
 .WebApplications .carousel .lastCard
 {
@@ -470,16 +467,13 @@ section .title::after{
     overflow: hidden;
     transition: all 0.3s ease;
 }
-.WebApplications .carousel2 .lastCard,
 .WebApplications .carousel .lastCard{
     background:crimson;
 }
-.WebApplications .carousel2 .card:hover,
 .WebApplications .carousel .card:hover{
     background: crimson;
 }
-.WebApplications .carousel2 .card .box,
-.WebApplications .carousel2 .lastCard .box,
+
 .WebApplications .carousel .card .box,
 .WebApplications .carousel .lastCard .box
 {
@@ -491,28 +485,22 @@ section .title::after{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     width:90%;
 }
-.WebApplications .carousel2 .card:hover .box,
-.WebApplications .carousel2 .lastCard:hover .box,
 .WebApplications .carousel .card:hover .box,
 .WebApplications .carousel .lastCard:hover .box{
     transform: scale(1.05);
 }
 .WebApplications .carousel .card .text,
-.WebApplications .carousel .lastCard .text,
-.WebApplications .carousel2 .card .text,
-.WebApplications .carousel2 .lastCard .text
+.WebApplications .carousel .lastCard .text
 {
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
     color:#fff;
 }
-.WebApplications .carousel .card p,
-.WebApplications .carousel2 .card p{
+.WebApplications .carousel .card p{
     color:#fff;
 }
-.WebApplications .carousel .card img,
-.WebApplications .carousel2 .card img{
+.WebApplications .carousel .card img{
     height: 140px;
     width: 150px;
     object-fit: cover;
@@ -521,8 +509,7 @@ section .title::after{
     transition: all 0.3s ease;
     box-shadow: crimson 0 0 20px;
 }
-.WebApplications .carousel .lastCard img,
-.WebApplications .carousel2 .lastCard img{
+.WebApplications .carousel .lastCard img{
     height: 150px;
     width: 150px;
     object-fit: cover;
@@ -531,8 +518,7 @@ section .title::after{
     transition: all 0.3s ease;
     box-shadow: #fff 0 0 20px;
 }
-.WebApplications .carousel .card:hover img,
-.WebApplications .carousel2 .card:hover img{
+.WebApplications .carousel .card:hover img{
     border-color: #fff;
     box-shadow: white 0 0 20px;
 }
@@ -685,8 +671,6 @@ footer span a:hover{
 /* responsive media query start */
 
 @media (max-width: 1200px){
-    .WebApplications .carousel2 .card,
-    .WebApplications .carousel2 .lastCard,
     .WebApplications .carousel .card,
     .WebApplications .carousel .lastCard{
         width:280px;
@@ -767,9 +751,7 @@ footer span a:hover{
 }
 @media(max-width:599px){
     .WebApplications .carousel .card,
-    .WebApplications .carousel .lastCard,
-    .WebApplications .carousel2 .card,
-    .WebApplications .carousel2 .lastCard{
+    .WebApplications .carousel .lastCard{
         width:85vw;
         height:390px;
     }
