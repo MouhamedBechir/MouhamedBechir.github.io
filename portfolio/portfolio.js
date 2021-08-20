@@ -18,13 +18,13 @@ $(document).ready(function(){
     });
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["IT engineer","Programmer", "Developper", "", "Designer"],
+        strings: ["computer science engineer","Programmer", "Developper", "", "Designer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
     var typed = new Typed(".typing-2", {
-        strings: ["IT engineer","Programmer", "Developper", "", "Designer"],
+        strings: ["computer science engineer","Programmer", "Developper", "", "Designer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
